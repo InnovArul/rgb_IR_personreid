@@ -1,0 +1,3 @@
+[submodule "src_py/SYSU-MM01"]
+	path = src_py/SYSU-MM01
+	url = https://github.com/wuancong/SYSU-MM01
