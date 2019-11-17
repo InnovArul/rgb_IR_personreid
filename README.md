@@ -54,3 +54,5 @@ The features of all the images from different cameras will be stored with file n
 To evaluate and get the metrics, the authors have release a Matlab evaluation script in the github repository: [https://github.com/wuancong/SYSU-MM01/blob/master/evaluation](https://github.com/wuancong/SYSU-MM01/blob/master/evaluation).
 
 Given the features, the evaluation code in their repository calculates the rank-1, mAP metrics. Open the `demo.m` file inside `<root>/src_py/SYSU-MM01/evaluation/` directory and give the relevant information regarding feature path, result folder, prefix of the model and execute the `demo.m` file.
+
+Alternatively, you can use python version of evaluation script from `<root>/src_py/SYSU_MM01_pythoneval/`. Refer to the [README](https://github.com/InnovArul/SYSU_MM01_pythoneval/blob/master/README.md) file of `SYSU_MM01_pythoneval` project for more information on how to use the evaluation routine. It is as similar to Matlab evaluation, but implemented in python to have seemless interface with python scripts. 

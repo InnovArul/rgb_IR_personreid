@@ -1,3 +1,6 @@
 [submodule "src_py/SYSU-MM01"]
 	path = src_py/SYSU-MM01
 	url = https://github.com/wuancong/SYSU-MM01
+[submodule ".\\src_py\\SYSU_MM01_pythoneval"]
+	path = src_py/SYSU_MM01_pythoneval
+	url = https://github.com/InnovArul/SYSU_MM01_pythoneval
