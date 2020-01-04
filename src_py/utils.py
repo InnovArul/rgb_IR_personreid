@@ -1,9 +1,7 @@
 # import matplotlib.pyplot as plt
 import os, sys, torch
 from model import resnet6
-#from model_resnet_pretrained import ResNet50
-from model_resnet_bam import ResNet50
-
+from model_resnet_pretrained import ResNet50
 
 def show_image(image):
     dpi = 80
